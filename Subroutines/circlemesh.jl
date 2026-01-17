@@ -10,7 +10,7 @@ function circlemesh(xc, yc, radius, h)
 
     for i = 1:1/(2*h)
         node,elem,~ = uniformrefine(node,elem);
-        node = enforceGeometry!(node,elem,radius);
+        node = enforceGeometry(node,elem,radius);
     end
     return node, elem
 end
