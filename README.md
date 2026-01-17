@@ -1,7 +1,7 @@
 # Basic Mesh Generation for Julia
 A series of functions used to generate quasi-uniform [rectangular](https://github.com/LukasOstien/Basic-Mesh-Generation-for-Julia/blob/main/Subroutines/squaremesh.jl) and [circular](https://github.com/LukasOstien/Basic-Mesh-Generation-for-Julia/blob/main/Subroutines/circlemesh.jl) meshes. If desired, a function to [uniformly refine](https://github.com/LukasOstien/Basic-Mesh-Generation-for-Julia/blob/main/Subroutines/uniformrefine.jl) a mesh is provided. When refining a circle mesh, [enforceGeometry.jl](https://github.com/LukasOstien/Basic-Mesh-Generation-for-Julia/blob/main/Subroutines/enforceGeometry.jl) can be used to enforce the geometry of a circle.<br>
 
-Some example meshes are shown here:
+Some example meshes are shown here: <br>
 ![](https://github.com/LukasOstien/Basic-Mesh-Generation-for-Julia/blob/main/Images/plot_1.png) <br>
 ![](https://github.com/LukasOstien/Basic-Mesh-Generation-for-Julia/blob/main/Images/plot_2.png) <br>
 ![](https://github.com/LukasOstien/Basic-Mesh-Generation-for-Julia/blob/main/Images/plot_3.png) <br>
