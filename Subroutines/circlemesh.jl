@@ -8,7 +8,7 @@ function circlemesh(xc, yc, radius, h)
     # refine the mesh until it reaches the 
     # desired subinterval length
 
-    for i = 1:1/(2*h)
+    for i = 1:ceil(1/(2*h))
         node,elem,~ = uniformrefine(node,elem);
         node = enforceGeometry(node,elem,radius);
     end
