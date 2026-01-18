@@ -1,3 +1,4 @@
+# An example script that showcases creating a mesh for a circle and square, and refining the meshes for the circle and square. Their plots can then be compared.
 using Plots
 include("squaremesh.jl")
 include("uniformrefine.jl")
