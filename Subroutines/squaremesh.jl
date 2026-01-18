@@ -1,5 +1,6 @@
 using MeshGrid
 function squaremesh(square,h)
+    # Generate a rectangular mesh
     x0 = square[1]; x1 = square[2]; 
     y0 = square[3]; y1 = square[4];
     x,y = meshgrid(x0:h:x1,y0:h:y1);
